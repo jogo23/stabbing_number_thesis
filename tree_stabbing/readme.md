@@ -23,20 +23,30 @@ All commands that are optional, because the required results are already provide
 
 
 [NON-OPTIONAL], [takes 10 minutes], [execute in tree_stabbing directory]
+
 $ gcc -o all_spanning all_spanning.c
+
 $ ./all_spanning
 
 [OPTIONAL], [execute in representative_lines directory],
 [lines can also be plotted individually, see plot_lines.py file]
+
 $ g++ -std=c++11 -o compute_representative compute_representative.cpp
+
 $ ./compute_representative "data/symmetric9_final.txt"
+
 $ ./compute_representative "data/symmetric10_final.txt"
+
 $ python plot_lines.py data/symmetric9_final.txt lines_res/repr_lines36.txt
+
 $ python plot_lines.py data/symmetric10_final.txt lines_res/repr_lines45.txt
 
 [MAIN PART], [execute in tree_stabbing directory], [takes a few minutes]
+
 $ g++ -std=c++11 -o compute_stabbing_num compute_stabbing_num.cpp
+
 $ ./compute_stabbing_num "representative_lines/data/symmetric9_final.txt" "representative_lines/lines_res/repr_lines36.txt" "all_spanning_trees_9.txt"
+
 $ ./compute_stabbing_num "representative_lines/data/symmetric10_final.txt" "representative_lines/lines_res/repr_lines45.txt" "one_spanning_tree_10.txt"
 
 
