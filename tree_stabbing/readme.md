@@ -24,7 +24,7 @@ All commands that are optional, because the required results are already provide
 
 [NON-OPTIONAL], [takes 10 minutes], [execute in tree_stabbing directory]
 
-'$ gcc -o all_spanning all_spanning.c'
+$ gcc -o all_spanning all_spanning.c
 
 $ ./all_spanning
 
