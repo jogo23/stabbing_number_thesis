@@ -31,6 +31,8 @@ $ ./all_spanning
 [OPTIONAL], [execute in representative_lines directory],
 [lines can also be plotted individually, see plot_lines.py file]
 
+$ cd representative_lines/
+
 $ g++ -std=c++11 -o compute_representative compute_representative.cpp
 
 $ ./compute_representative "data/symmetric9_final.txt"
@@ -40,6 +42,8 @@ $ ./compute_representative "data/symmetric10_final.txt"
 $ python plot_lines.py data/symmetric9_final.txt lines_res/repr_lines36.txt
 
 $ python plot_lines.py data/symmetric10_final.txt lines_res/repr_lines45.txt
+
+$ cd ..
 
 [MAIN PART], [execute in tree_stabbing directory], [takes a few minutes]
 
