@@ -18,7 +18,7 @@ $ g++ -std=c++11 -o main main.cpp
 
 $ ./main
 
-[PLOT RESULTS]
+[PLOT RESULTS] [change 'example_results' in following path to 'results_cf' if you want to plot your own results]
 
 $ python plot_avg.py 'example_results/avg_crossing_numbers.txt'
 
