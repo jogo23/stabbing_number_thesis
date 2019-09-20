@@ -13,16 +13,18 @@ All commands that are optional, because the required results are already provide
 
 
 [OPTIONAL]
-
+```
 $ g++ -std=c++11 -o main main.cpp
 
 $ ./main
+```
 
 [PLOT RESULTS] [change 'example_results' in following path to 'results_cf' if you want to plot your own results]
-
+```
 $ python plot_avg.py 'example_results/avg_crossing_numbers.txt'
 
 $ python plot_cr_family.py 'example_results/pointsets/pointset_6_0.txt' 'example_results/crossing_families/crossing_family_6_0.txt'
+```
 
 Just change the names of the point sets and crossing families in the last line if you want to plot other sets.
 
